@@ -4,7 +4,7 @@
 	font-family: sans-serif;
 	font-size: 13px;
 	opacity: .75;
-	margin: 0 8px;
+	margin: 10px 8px;
 	position: relative;
 }
 
@@ -12,8 +12,20 @@ a:hover {
 	text-decoration: underline;
 }
 
+.left {
+	float: left;
+}
 .right {
 	float: right;
+}
+
+.apps {
+	opacity: .75;
+	top: 2px;
+}
+
+.apps:hover {
+	opacity: 1;
 }
 
 .google-it {
