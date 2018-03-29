@@ -1,32 +1,43 @@
-img {
+.google-it {
 	position: relative;
 	display: block;
-	margin: 50px auto 0 auto;
-	width: auto;
+	margin: 0 auto;
+	width: 595px;
 }
 
-form {
-	width: 525px;
+form {	
 	position: relative;
 	display: block;
 	margin: 0 auto;
 }
 
+input[type=text] {
+	-webkit-appearance: none;
+	width: 595px;
+	height: 35px;
+	box-shadow: 0 2px 5px #757575;
+	border: 1px solid #f2f2f2;
+}
+
 input[type=submit] {
 	position: absolute;
 	display: inline-block;
-}
-
-.search-box {
-	width: 515px;
+	-webkit-appearance: none;
+	width: 150px;
+	height: 35px;
+	top: 70px;
+	font-weight: bold;
+	font-size: 12px;
+	color: #757575;
+	background-color: #f2f2f2;
+	border: none;
 }
 
 .enter {
-	left: 10px;
-	width: 20em;
+	left: 143px;
 }
 
 .lucky {
-	right: 10px;
-	width: 20em;
+	right: 143px;
+
 }
