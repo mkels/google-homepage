@@ -1,4 +1,8 @@
-.nav a {
+ul {
+	line-height: 30px;
+}
+
+ul, a {
 	color: black;
 	text-decoration: none;
 	font-family: sans-serif;
@@ -6,6 +10,14 @@
 	opacity: .75;
 	margin: 10px 8px;
 	position: relative;
+	display: block;
+	list-style-type: none;
+}
+
+.apps {
+	height: 20px;
+	width: 20px;
+	vertical-align: middle;
 }
 
 a:hover {
@@ -17,15 +29,6 @@ a:hover {
 }
 .right {
 	float: right;
-}
-
-.apps {
-	opacity: .75;
-	top: 2px;
-}
-
-.apps:hover {
-	opacity: 1;
 }
 
 .google-it {
@@ -70,5 +73,4 @@ input[type=submit] {
 
 .lucky {
 	right: 143px;
-
 }
