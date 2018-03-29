@@ -1,9 +1,32 @@
 img {
 	position: relative;
 	display: block;
-	margin: 50px auto;
+	margin: 50px auto 0 auto;
 	width: auto;
 }
-.class {
+
+form {
+	width: 525px;
 	position: relative;
+	display: block;
+	margin: 0 auto;
+}
+
+input[type=submit] {
+	position: absolute;
+	display: inline-block;
+}
+
+.search-box {
+	width: 515px;
+}
+
+.enter {
+	left: 10px;
+	width: 20em;
+}
+
+.lucky {
+	right: 10px;
+	width: 20em;
 }
