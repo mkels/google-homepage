@@ -28,8 +28,23 @@ li.right {
 	width: 20px;
 }
 
+.sign-in {
+	background: #4285f4;
+	opacity: 1;
+	color: white;
+	font-weight: bold;
+	padding: 6px 10px;
+	border-radius: 2px;
+
+}
+
 a:hover {
 	text-decoration: underline;
+}
+
+.sign-in:hover {
+	text-decoration: none;
+	cursor: default;
 }
 
 .google-it {
