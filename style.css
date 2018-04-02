@@ -91,3 +91,25 @@ input[type=submit] {
 .lucky {
 	right: 148px;
 }
+
+.footer {
+	position: absolute;
+	display: block;
+	bottom: 0;
+	left: 0;
+	clear: both;
+	height: 40px;
+	width: 100%;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+}
+
+ul.footer {
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+li.f_right {
+	float: right;
+}
